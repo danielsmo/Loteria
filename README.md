@@ -5,7 +5,8 @@ O cliente, dono de uma agência lotérica, solicitou que fosse construída uma a
 ## Tecnologias utilizadas
 - Java
 - Mysql
-- Spring Boot
+- Spring
+  - Spring Boot
   - Starter Data JPA
   - Validation
   - Swagger UI
