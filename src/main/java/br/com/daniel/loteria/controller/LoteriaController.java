@@ -26,6 +26,7 @@ public class LoteriaController {
 
 
     @PostMapping
+    @ResponseStatus(HttpStatus.CREATED)
     public ResponseEntity<?> cadastraNovoSorteio(@RequestBody @Valid UsuarioRequest request) {
 
         Usuario usuario = usuarioService.validaUsuario(request);
