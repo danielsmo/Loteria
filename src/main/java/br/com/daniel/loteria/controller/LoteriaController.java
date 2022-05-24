@@ -40,6 +40,7 @@ public class LoteriaController {
 
 
     @GetMapping("/{usuarioId}")
+    @ResponseStatus(HttpStatus.OK)
     public ResponseEntity<List> listaSorteios(@PathVariable Long usuarioId) {
 
         Usuario usuario = usuarioService.localizaUsuario(usuarioId);
